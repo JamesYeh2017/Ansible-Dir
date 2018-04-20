@@ -1,0 +1,10 @@
+[vagrant]
+#127.0.0.1 ansible_port=2222 ansible_user=vagrant 
+
+[gcp]
+#gcp_user  ansible_host=IP
+
+[ec2]
+13.113.186.220  ansible_user=ec2-user
+13.231.162.26  ansible_user=ec2-user
+
