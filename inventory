@@ -4,7 +4,7 @@
 [gcp]
 #gcp_user  ansible_host=IP
 
-[ec2]
+[ec2-centos]
 #13.113.186.220  ansible_user=ec2-user
 13.231.125.240  ansible_user=ec2-user
 
