@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99518379-3507-4abf-a9ca-3b8469bf11df" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/jamesyeh.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="$PROJECT_DIR$/centos_playbook/hello.yml" afterPath="$PROJECT_DIR$/centos_playbook/demo.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/centos_playbook/git_htop.yml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/centos_playbook/demo.yml" afterPath="$PROJECT_DIR$/centos_playbook/demo.yml" />
+      <change beforePath="$PROJECT_DIR$/centos_playbook/redis_htop.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/centos_playbook/test.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/inventory" afterPath="$PROJECT_DIR$/inventory" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,28 +21,8 @@
       <file leaf-file-name="demo.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/centos_playbook/demo.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="7" column="34" lean-forward="false" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/centos_playbook/test.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="redis_htop.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/centos_playbook/redis_htop.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="336">
+              <caret line="16" column="7" lean-forward="false" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -214,8 +197,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/centos_playbook/demo.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="34" lean-forward="false" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="34" />
+        <state relative-caret-position="336">
+          <caret line="16" column="7" lean-forward="false" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
           <folding />
         </state>
       </provider>

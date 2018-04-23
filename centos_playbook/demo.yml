@@ -2,20 +2,23 @@
 - hosts: ec2-centos
   gather_facts: false
   vars:
-    - message: hello world
+    - message: hello world                          # 變數名稱
   tasks:
     - name: Install htop on centos
       yum: name="{{ item }}" state=present
-      with_items:
+      with_items:                         
        - htop
        - git
-      when: ansible_os_family == 'RedHat'
+      when: ansible_os_family == 'RedHat' # 判斷條件
+
+    - name: storage string in hello.log
+      shell: echo {{message}}  `date` by `hostname` > /tmp/hello.log
+      #debug: msg="{{ item }}"
+      #with_items: echo {{message}}  `date` by `hostname`
 
     - name: try command keyword
       command: echo `hostnamectl` > /tmp/hello.log
       register: output
-      #debug: msg="{{ item }}"
-      #with_items: echo {{message}}  `date` by `hostname`
 
     - debug:
         var: output

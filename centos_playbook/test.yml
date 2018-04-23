@@ -1,9 +1,0 @@
----
-- name: create dir
-  hosts: centos
-  tasks:
-  - name: create dir
-    command: mkdir test
-    register: output
-  - debug:
-      var: output
