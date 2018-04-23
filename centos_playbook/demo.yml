@@ -1,6 +1,6 @@
 ---
 - hosts: ec2-centos
-  gather_facts: false
+  #gather_facts: false
   vars:
     - message: hello world                          # 變數名稱
   tasks:
@@ -9,7 +9,7 @@
       with_items:                         
        - htop
        - git
-      #when: "{{ansible_os_family}}" == 'RedHat' # 判斷條件
+      when: ansible_os_family == 'RedHat' # 判斷條件
 
     - name: storage string in hello.log
       shell: echo {{message}}  `date` by `hostname` > /tmp/hello.log
