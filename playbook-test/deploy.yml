@@ -1,0 +1,9 @@
+---
+- name: deploy application from git
+  hosts: centos
+  tasks:
+  - name: deploy app
+    command: git clone {{url}}
+    register: output
+  - debug:
+      var: output
